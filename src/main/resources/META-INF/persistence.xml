@@ -6,7 +6,20 @@
              https://jakarta.ee/xml/ns/persistence/persistence_3_1.xsd"
              version="3.1">
 
-    <persistence-unit name="ats-persistence-unit">
+    <persistence-unit name="flearn-persistence-unit">
+
+        <!-- Entity classes -->
+        <class>org.flearn.model.User</class>
+        <class>org.flearn.model.ClassRoom</class>
+        <class>org.flearn.model.ClassMember</class>
+        <class>org.flearn.model.Node</class>
+        <class>org.flearn.model.Question</class>
+        <class>org.flearn.model.Answer</class>
+        <class>org.flearn.model.LiveSession</class>
+        <class>org.flearn.model.StudentProgress</class>
+        <class>org.flearn.model.StudentAnswer</class>
+        <class>org.flearn.model.MilestoneAssignment</class>
+        <class>org.flearn.model.SurveyResponse</class>
 
         <properties>
 
@@ -17,7 +30,7 @@
             <!-- Database URL -->
             <property name="jakarta.persistence.jdbc.url"
                       value="jdbc:sqlserver://localhost:1433;
-                             databaseName=tutorial;
+                             databaseName=FLearnDB;
                              encrypt=true;
                              trustServerCertificate=true"/>
 
