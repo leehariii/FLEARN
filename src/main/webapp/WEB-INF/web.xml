@@ -17,7 +17,7 @@
         <session-timeout>30</session-timeout>
     </session-config>
 
-    <!-- Custom error pages -->
+    <!-- Custom error pages (Tạm thời tắt để hiển thị lỗi gốc)
     <error-page>
         <error-code>404</error-code>
         <location>/WEB-INF/views/error/404.jsp</location>
@@ -27,5 +27,6 @@
         <error-code>500</error-code>
         <location>/WEB-INF/views/error/404.jsp</location>
     </error-page>
+    -->
 
 </web-app>
