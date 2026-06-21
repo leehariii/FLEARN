@@ -1,7 +1,6 @@
 package flearn.module.content.mapper;
 
 import flearn.module.content.dto.response.MaterialTrackingResponse;
-import flearn.entity.MaterialTracking;
 import org.mapstruct.Mapper;
 import org.mapstruct.NullValueMappingStrategy;
 

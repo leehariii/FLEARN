@@ -1,11 +1,7 @@
 package flearn.entity;
 
-public class MaterialTracking {
-}
-package flearn.entity;
-
 import jakarta.persistence.*;
-        import lombok.AllArgsConstructor;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
