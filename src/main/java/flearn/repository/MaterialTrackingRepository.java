@@ -1,7 +1,6 @@
 package flearn.repository;
 
 import flearn.entity.Material;
-import flearn.entity.MaterialTracking;
 import flearn.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
